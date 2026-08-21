@@ -12,10 +12,6 @@ body {
     height: 100dvh;
 }
 
-.row-part {
-    display: flex;
-    flex-direction: row;
-}
 
 .card {
     height: 400px;

@@ -8,6 +8,7 @@ function App() {
     <>
       <Card img={hero} name="kian" detail="pogi"/>
       <Card img={charImg} name="flexi" detail="stupid bitch"/>
+      <Card />
     </>
   );
 }
