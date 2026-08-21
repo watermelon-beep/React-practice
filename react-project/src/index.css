@@ -12,6 +12,11 @@ body {
     height: 100dvh;
 }
 
+.row-part {
+    display: flex;
+    flex-direction: row;
+}
+
 .card {
     height: 400px;
     width: 300px;
@@ -24,7 +29,7 @@ body {
     box-shadow: 2px 2px 20px 5px rgb(185, 184, 184);
 }
 
-.card img {
+.row-part img {
     height: 300px;
     width: 200px;
     margin-top: 20px;

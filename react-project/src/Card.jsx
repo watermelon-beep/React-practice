@@ -1,12 +1,13 @@
-function Card() {
+function Card(props) {
     return(
-        <div className="card">
-            <img src="src/assets/charImg.png" alt="" />
-            <div className="detail">
-                <h2>vite</h2>
-                <p>welcome to vite!</p>
+        <div className="row-part">
+            <div className="card">
+                <img src= {props.img} alt="" />
+                <div className="detail">
+                    <h2>{props.name}</h2>
+                    <p>{props.detail}</p>
+                </div>
             </div>
-            
         </div>
     );
 }
